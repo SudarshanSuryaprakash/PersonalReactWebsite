@@ -1,0 +1,116 @@
+import React, { Component } from 'react';
+import {
+  Tabs,
+  Tab,
+  Grid,
+  Cell,
+  Card,
+  CardTitle,
+  CardText,
+  CardActions,
+  Button,
+  CardMenu,
+  IconButton,
+} from 'react-mdl';
+
+import ProjectCard from './ProjectCard';
+
+class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { activeTab: 0 };
+  }
+
+  toggleCategories() {
+    if (this.state.activeTab === 0) {
+      return (
+        <div className='projects-grid header-color'>
+          <ProjectCard
+            style={{}}
+            title='ProfConnector'
+            text=' A Full scale Social Media Web App that allows Professors from
+              Brunel University to have a profile and communicate with each
+              other. Uses MongoDB, Express, React and Node. Redux for state
+              management.'
+            link='https://ancient-springs-06742.herokuapp.com'
+            button_text='Live Demo'
+          />
+
+          <ProjectCard
+            title='E-Commerce Web App'
+            text='Full scale E-Commerce web App rich with features. Built with the
+              same technologies. Ready to be deployed - Could find a client and sell.'
+            link='https://www.linkedin.com/posts/sudarshan-suryaprakash-b5ab1b190_mern-react-javascript-activity-6683104988476002304-H6O8'
+            button_text='Video Demo'
+          />
+        </div>
+      );
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div className='projects-grid header-color'>
+          {/* Project 1 */}
+
+          <ProjectCard
+            title='COVID 19 Tracker'
+            text='React app to track covid 19 using an external API'
+            link='https://covid19trackersud.herokuapp.com'
+            button_text='Live Demo'
+          />
+        </div>
+      );
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div className='projects-grid header-color'>
+          <ProjectCard
+            title='Movie Seat Booker'
+            text='Allows for booking seats. Uses local storage to save selected data - persistent on page refresh'
+            link='https://sudarshansuryaprakash.github.io/MovieSelector/'
+            button_text='Live Demo'
+          />
+          <ProjectCard
+            title='Custom Video Player'
+            text='Does not use the precoded controls for the HTML5 video. Custom controls for play, pause, progress bar'
+            link='https://sudarshansuryaprakash.github.io/CustomVideoPlayer/'
+            button_text='Live Demo'
+          />
+          <ProjectCard
+            title='Exchange Rate Converter'
+            text='Fetches exchange rates from external API and calls a function to rerender data every time an input is changed.'
+            link='https://sudarshansuryaprakash.github.io/Exchange-rate-calculator/'
+            button_text='Live Demo'
+          />
+          <ProjectCard
+            title='DOM array Methods'
+            text='Simple use of Javascript DOM array methods - forEach(), map(), sort(), filter() and reduce()'
+            link='https://sudarshansuryaprakash.github.io/Dom-Array-Methods/'
+            button_text='Live Demo'
+          />
+        </div>
+      );
+    }
+  }
+
+  render() {
+    return (
+      <div>
+        <Tabs
+          activeTab={this.state.activeTab}
+          onChange={(tabId) => this.setState({ activeTab: tabId })}
+          ripple
+        >
+          <Tab>Full Scale Projects</Tab>
+          <Tab>React</Tab>
+          <Tab>Vanilla Javascript Projects</Tab>
+        </Tabs>
+
+        <Grid>
+          <Cell col={12}>
+            <div className='content'>{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
+}
+
+export default Projects;

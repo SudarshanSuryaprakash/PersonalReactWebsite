@@ -1,0 +1,118 @@
+import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
+import Education from './education';
+import Experience from './experience';
+import Skills from './skills';
+import img from '../img/Sudarshan-img.jpeg';
+
+class Resume extends Component {
+  render() {
+    return (
+      <div>
+        <Grid>
+          <Cell col={4}>
+            <div style={{ textAlign: 'center' }}>
+              <img
+                className='avatar-img'
+                src={img}
+                alt='avatar'
+                style={{ height: '200px' }}
+              />
+            </div>
+
+            <h2 style={{ paddingTop: '2em' }}>Sudarshan Suryaprakash</h2>
+            <h4 style={{ color: 'grey' }}>Programmer</h4>
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <p>
+              Strong background in Computer Science. Skilled at Full Stack
+              Development. Interest in non-fiction books. Click{' '}
+              <a
+                href='https://sudarshansuryaprakash.github.io/JobApplication/books'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                here
+              </a>{' '}
+              to view. Extreme interest in Management and Marketing sciences.
+            </p>
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+
+            <h5>Phone</h5>
+            <p>07421054467</p>
+            <h5>Email</h5>
+            <p>sudarshansprakash@gmail.com</p>
+            <h5>Web</h5>
+            <a
+              href='https://sudarshansuryaprakash.github.io/JobApplication'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              HTML website
+            </a>
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+          </Cell>
+          <Cell className='resume-right-col' col={8}>
+            <h2>Education</h2>
+
+            <Education
+              startYear={2002}
+              endYear={2006}
+              schoolName='Brunel University London'
+              degree='MSc Management with extended placement'
+              schoolDescription='
+              Favourite modules: Strategic Management, Knowledge Management, Financial Resourse Management, Understarstanding Business and Management Research.
+              '
+            />
+
+            <Education
+              startYear={2007}
+              endYear={2009}
+              schoolName='Ramaiah University of Applied Sciences'
+              degree='Bachelor of Technology in Comupter Science and Engineering'
+              schoolDescription='
+              Favourite Modules: Data Structures and Algorithms, Web Architecture and Application Development, Discrete Mathematics, Advanced Programming Concepts, Design and Analysis of Algorithms,
+              Software Development Fundamentals, Data Communication, Formal Languages and Automata Theory, Computer Networks, Database Systems, Data Mining, Data Analytics
+              '
+            />
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+
+            <h2>Experience</h2>
+
+            <Experience
+              startYear='6/2018'
+              endYear='8/2018'
+              jobName='Software Intern'
+              jobDescription='Obtained requirements from clients and delivered them to the senior developer. 
+Communicated between customers and developers to ensure they understood requirements correctly.
+Used attention to detail to document requirements obtained from the customer
+Documented deliverables and delivered features obtained from the developer.
+              '
+            />
+
+            <Experience
+              startYear={2012}
+              endYear={2016}
+              jobName='Marketing Executive'
+              jobDescription='Promoted brand awareness through SEO and attractive web design.
+  Produced engaging online marketing campaigns
+Spearhead creation of blogs and social media content
+Managed new product and content releases
+ Worked effectively in heavily cross-functional, fast-paced environment.
+Managed, mentored and developed a team of 3 interns.
+Analysed the performance of all marketing programs to identify best opportunities for optimization.'
+            />
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+            <h2>Skills</h2>
+            <Skills skill='javascript' progress={95} />
+            <Skills skill='HTML/CSS' progress={90} />
+            <Skills skill='NodeJS' progress={80} />
+            <Skills skill='React' progress={70} />
+            <Skills skill='Python' progress={80} />
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
+}
+
+export default Resume;
