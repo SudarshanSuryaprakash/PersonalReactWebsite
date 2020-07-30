@@ -40,9 +40,7 @@ class ProjectCard extends React.Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: '#fff' }}>
-            <IconButton name='share' />
-          </CardMenu>
+          <CardMenu style={{ color: '#fff' }}></CardMenu>
         </Card>
       </div>
     );
