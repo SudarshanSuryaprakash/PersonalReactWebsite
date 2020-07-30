@@ -86,7 +86,13 @@
     margin-left: 80px;
   }
   .projects-grid {
-    height: 200vh;
+    height: 100%;
+  }
+  .landing-grid {
+    height: 100%;
+  }
+  .react-projects {
+    height: 100vh;
   }
 }
 

@@ -11,7 +11,10 @@ import {
 class ProjectCard extends React.Component {
   render() {
     return (
-      <div style={{ marginRight: '25px' }} className=''>
+      <div
+        style={{ marginRight: '25px' }}
+        className={this.props.styleSetter ? 'react-projects' : ''}
+      >
         {/* Project 1 */}
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle

@@ -38,7 +38,7 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div className='projects-grid header-color'>
+        <div className='projects-grid'>
           {/* Project 1 */}
 
           <ProjectCard
@@ -47,12 +47,13 @@ class Projects extends Component {
             link='https://covid19trackersud.herokuapp.com'
             button_text='Live Demo'
             pic='url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
+            styleSetter={1}
           />
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <div className='projects-grid header-color'>
+        <div className='projects-grid'>
           <ProjectCard
             title='Movie Seat Booker'
             text='Allows for booking seats. Uses local storage to save selected data - persistent on page refresh'
