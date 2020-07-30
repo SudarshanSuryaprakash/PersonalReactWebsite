@@ -24,7 +24,7 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className='projects-grid header-color'>
+        <div className='projects-grid'>
           <ProjectCard
             style={{}}
             title='ProfConnector'
@@ -35,7 +35,7 @@ class Projects extends Component {
             link='https://ancient-springs-06742.herokuapp.com'
             button_text='Live Demo'
           />
-
+          <div className='breaker'></div>
           <ProjectCard
             title='E-Commerce Web App'
             text='Full scale E-Commerce web App rich with features. Built with the
@@ -66,25 +66,29 @@ class Projects extends Component {
             text='Allows for booking seats. Uses local storage to save selected data - persistent on page refresh'
             link='https://sudarshansuryaprakash.github.io/MovieSelector/'
             button_text='Live Demo'
-          />
+          />{' '}
+          <div className='breaker'></div>
           <ProjectCard
             title='Custom Video Player'
             text='Does not use the precoded controls for the HTML5 video. Custom controls for play, pause, progress bar'
             link='https://sudarshansuryaprakash.github.io/CustomVideoPlayer/'
             button_text='Live Demo'
           />
+          <div className='breaker'></div>
           <ProjectCard
             title='Exchange Rate Converter'
             text='Fetches exchange rates from external API and calls a function to rerender data every time an input is changed.'
             link='https://sudarshansuryaprakash.github.io/Exchange-rate-calculator/'
             button_text='Live Demo'
           />
+          <div className='breaker'></div>
           <ProjectCard
             title='DOM array Methods'
             text='Simple use of Javascript DOM array methods - forEach(), map(), sort(), filter() and reduce()'
             link='https://sudarshansuryaprakash.github.io/Dom-Array-Methods/'
             button_text='Live Demo'
           />
+          <div className='breaker'></div>
         </div>
       );
     }

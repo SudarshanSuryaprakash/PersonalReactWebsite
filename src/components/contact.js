@@ -40,7 +40,10 @@ class Contact extends Component {
                       color: '#0f5fa9',
                     }}
                   >
-                    <i className='fa fa-phone-square' aria-hidden='true' />
+                    <i
+                      className='fa fa-phone-square phone'
+                      aria-hidden='true'
+                    />
                     07421054467
                   </ListItemContent>
                 </ListItem>

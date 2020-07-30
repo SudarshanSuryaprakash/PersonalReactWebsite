@@ -10,7 +10,7 @@ class Resume extends Component {
     return (
       <div>
         <Grid>
-          <Cell col={4}>
+          <Cell className='resume-left-col' col={4}>
             <div style={{ textAlign: 'center' }}>
               <img
                 className='avatar-img'
