@@ -1,19 +1,8 @@
 import React, { Component } from 'react';
-import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
-  Button,
-  CardMenu,
-  IconButton,
-} from 'react-mdl';
+import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 
 import ProjectCard from './ProjectCard';
+import js from '../img/js.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -34,6 +23,7 @@ class Projects extends Component {
               management.'
             link='https://ancient-springs-06742.herokuapp.com'
             button_text='Live Demo'
+            pic='url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
           />
           <div className='breaker'></div>
           <ProjectCard
@@ -42,6 +32,7 @@ class Projects extends Component {
               same technologies. Ready to be deployed - Could find a client and sell.'
             link='https://www.linkedin.com/posts/sudarshan-suryaprakash-b5ab1b190_mern-react-javascript-activity-6683104988476002304-H6O8'
             button_text='Video Demo'
+            pic='url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
           />
         </div>
       );
@@ -55,6 +46,7 @@ class Projects extends Component {
             text='React app to track covid 19 using an external API'
             link='https://covid19trackersud.herokuapp.com'
             button_text='Live Demo'
+            pic='url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
           />
         </div>
       );
@@ -66,6 +58,7 @@ class Projects extends Component {
             text='Allows for booking seats. Uses local storage to save selected data - persistent on page refresh'
             link='https://sudarshansuryaprakash.github.io/MovieSelector/'
             button_text='Live Demo'
+            pic={js}
           />{' '}
           <div className='breaker'></div>
           <ProjectCard
@@ -73,6 +66,7 @@ class Projects extends Component {
             text='Does not use the precoded controls for the HTML5 video. Custom controls for play, pause, progress bar'
             link='https://sudarshansuryaprakash.github.io/CustomVideoPlayer/'
             button_text='Live Demo'
+            pic={js}
           />
           <div className='breaker'></div>
           <ProjectCard
@@ -80,6 +74,7 @@ class Projects extends Component {
             text='Fetches exchange rates from external API and calls a function to rerender data every time an input is changed.'
             link='https://sudarshansuryaprakash.github.io/Exchange-rate-calculator/'
             button_text='Live Demo'
+            pic={js}
           />
           <div className='breaker'></div>
           <ProjectCard

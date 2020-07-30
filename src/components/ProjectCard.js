@@ -1,16 +1,11 @@
 import React from 'react';
 import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
   Card,
   CardTitle,
   CardText,
   CardActions,
   Button,
   CardMenu,
-  IconButton,
 } from 'react-mdl';
 
 class ProjectCard extends React.Component {
