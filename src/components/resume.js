@@ -6,6 +6,7 @@ import Skills from './skills';
 import img from '../img/Sudarshan-img.jpeg';
 import { Button } from 'react-mdl';
 import { Link } from 'react-router-dom';
+import Certifications from './Certifications';
 
 class Resume extends Component {
   render() {
@@ -74,7 +75,7 @@ class Resume extends Component {
             </Button>
 
             <hr style={{ borderTop: '3px solid #e22947' }} />
-            <h2>Software Experience & Education</h2>
+            <h2>Software Education, Experience & Certifications</h2>
 
             <Education
               startYear={2007}
@@ -96,6 +97,37 @@ Used attention to detail to document requirements obtained from the customer
 Documented deliverables and delivered features obtained from the developer.
               '
             />
+
+            <Certifications
+              name='The complete 2020 web development bootcamp'
+              description='Learnt the fundamentals of web development including HTML, CSS, Javascript,
+Node, RestAPIs,
+Database Management with NoSQL (MongoDB) and SQL (MySQL),
+Basic React
+Website Security'
+              link='https://www.udemy.com/course/the-complete-web-development-bootcamp/'
+            />
+            <Certifications
+              name='Modern React with Redux [2020 Update]'
+              description='Learnt the core concepts of React and Redux from the very basics to advanced concepts.'
+              link='https://www.udemy.com/course/react-redux/'
+            />
+            <Certifications
+              name='Automate the Boring Stuff with Python Programming'
+              description='Applied already present knowledge of python to automate manual computer tasks'
+              link='https://www.udemy.com/course/automate/'
+            />
+            <Certifications
+              name='Advanced CSS and Sass: Flexbox, Grid, Animations and More!'
+              description='Vanilla Front End development taken to the next level!'
+              link='https://www.udemy.com/course/advanced-css-and-sass/'
+            />
+            <Certifications
+              name='Node.js, Express, MongoDB & More: The Complete Bootcamp 2020'
+              description='Advanced concepts in the Backend'
+              link='https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/'
+            />
+
             <hr style={{ borderTop: '3px solid #e22947' }} />
 
             <h2>Business Education & Experience</h2>
