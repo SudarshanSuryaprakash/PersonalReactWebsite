@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 
 import ProjectCard from './ProjectCard';
-import js from '../img/js.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -59,7 +58,7 @@ class Projects extends Component {
             text='Allows for booking seats. Uses local storage to save selected data - persistent on page refresh'
             link='https://sudarshansuryaprakash.github.io/MovieSelector/'
             button_text='Live Demo'
-            pic={js}
+            pic='url(https://images.unsplash.com/photo-1572621403925-33e05716ad8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80) center / cover'
           />{' '}
           <div className='breaker'></div>
           <ProjectCard
@@ -67,7 +66,7 @@ class Projects extends Component {
             text='Does not use the precoded controls for the HTML5 video. Custom controls for play, pause, progress bar'
             link='https://sudarshansuryaprakash.github.io/CustomVideoPlayer/'
             button_text='Live Demo'
-            pic={js}
+            pic='url(https://images.unsplash.com/photo-1572621403925-33e05716ad8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80) center / cover'
           />
           <div className='breaker'></div>
           <ProjectCard
@@ -75,7 +74,7 @@ class Projects extends Component {
             text='Fetches exchange rates from external API and calls a function to rerender data every time an input is changed.'
             link='https://sudarshansuryaprakash.github.io/Exchange-rate-calculator/'
             button_text='Live Demo'
-            pic={js}
+            pic='url(https://images.unsplash.com/photo-1572621403925-33e05716ad8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80) center / cover'
           />
           <div className='breaker'></div>
           <ProjectCard
@@ -83,6 +82,7 @@ class Projects extends Component {
             text='Simple use of Javascript DOM array methods - forEach(), map(), sort(), filter() and reduce()'
             link='https://sudarshansuryaprakash.github.io/Dom-Array-Methods/'
             button_text='Live Demo'
+            pic='url(https://images.unsplash.com/photo-1572621403925-33e05716ad8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80) center / cover'
           />
           <div className='breaker'></div>
         </div>
@@ -92,20 +92,23 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
+      <div className='margin-remover'>
         <Tabs
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
+          className='margin-remover'
         >
           <Tab>Full Scale</Tab>
           <Tab>React</Tab>
           <Tab>Javascript</Tab>
         </Tabs>
 
-        <Grid>
-          <Cell col={12}>
-            <div className='content'>{this.toggleCategories()}</div>
+        <Grid className='margin-remover'>
+          <Cell className='margin-remover' col={12}>
+            <div className='content margin-remover'>
+              {this.toggleCategories()}
+            </div>
           </Cell>
         </Grid>
       </div>

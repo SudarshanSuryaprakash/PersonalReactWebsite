@@ -21,8 +21,9 @@ class ProjectCard extends React.Component {
             style={{
               color: '#fff',
               height: '176px',
-              background:
-                'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover',
+              // background:
+              //   'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover',
+              background: this.props.pic,
             }}
           >
             {this.props.title}

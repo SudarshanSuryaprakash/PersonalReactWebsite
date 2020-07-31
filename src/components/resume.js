@@ -4,6 +4,8 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import img from '../img/Sudarshan-img.jpeg';
+import { Button } from 'react-mdl';
+import { Link } from 'react-router-dom';
 
 class Resume extends Component {
   render() {
@@ -51,18 +53,28 @@ class Resume extends Component {
             </a>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
-          <Cell className='resume-right-col' col={8}>
-            <h2>Education</h2>
 
-            <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName='Brunel University London'
-              degree='MSc Management with extended placement'
-              schoolDescription='
-              Favourite modules: Strategic Management, Knowledge Management, Financial Resourse Management, Understarstanding Business and Management Research.
-              '
-            />
+          <Cell className='resume-right-col' col={8}>
+            <h2>Skills</h2>
+            <Skills skill='javascript' progress={95} />
+            <Skills skill='HTML/CSS' progress={90} />
+            <Skills skill='NodeJS' progress={80} />
+            <Skills skill='React' progress={70} />
+            <Skills skill='Python' progress={80} />
+            <Button style={{ background: 'black' }}>
+              <Link
+                to='/projects'
+                style={{
+                  color: 'white',
+                  textDecoration: 'none',
+                }}
+              >
+                Projects
+              </Link>
+            </Button>
+
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+            <h2>Software Experience & Education</h2>
 
             <Education
               startYear={2007}
@@ -74,10 +86,6 @@ class Resume extends Component {
               Software Development Fundamentals, Data Communication, Formal Languages and Automata Theory, Computer Networks, Database Systems, Data Mining, Data Analytics
               '
             />
-            <hr style={{ borderTop: '3px solid #e22947' }} />
-
-            <h2>Experience</h2>
-
             <Experience
               startYear='6/2018'
               endYear='8/2018'
@@ -86,6 +94,19 @@ class Resume extends Component {
 Communicated between customers and developers to ensure they understood requirements correctly.
 Used attention to detail to document requirements obtained from the customer
 Documented deliverables and delivered features obtained from the developer.
+              '
+            />
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+
+            <h2>Business Education & Experience</h2>
+
+            <Education
+              startYear={2002}
+              endYear={2006}
+              schoolName='Brunel University London'
+              degree='MSc Management with extended placement'
+              schoolDescription='
+              Favourite modules: Strategic Management, Knowledge Management, Financial Resourse Management, Understarstanding Business and Management Research.
               '
             />
 
@@ -101,13 +122,6 @@ Managed new product and content releases
 Managed, mentored and developed a team of 3 interns.
 Analysed the performance of all marketing programs to identify best opportunities for optimization.'
             />
-            <hr style={{ borderTop: '3px solid #e22947' }} />
-            <h2>Skills</h2>
-            <Skills skill='javascript' progress={95} />
-            <Skills skill='HTML/CSS' progress={90} />
-            <Skills skill='NodeJS' progress={80} />
-            <Skills skill='React' progress={70} />
-            <Skills skill='Python' progress={80} />
           </Cell>
         </Grid>
       </div>
