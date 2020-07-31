@@ -62,6 +62,7 @@ class Resume extends Component {
             <Skills skill='NodeJS' progress={80} />
             <Skills skill='React' progress={70} />
             <Skills skill='Python' progress={80} />
+            <Skills skill='Git, Github & Version Control' progress={80} />
             <Button style={{ background: 'black' }}>
               <Link
                 to='/projects'
@@ -97,6 +98,9 @@ Used attention to detail to document requirements obtained from the customer
 Documented deliverables and delivered features obtained from the developer.
               '
             />
+            <h3 style={{ margin: 'auto', textAlign: 'center' }}>
+              Certifications
+            </h3>
 
             <Certifications
               name='The complete 2020 web development bootcamp'
