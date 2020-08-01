@@ -85,6 +85,14 @@ class Projects extends Component {
             pic='url(https://images.unsplash.com/photo-1572621403925-33e05716ad8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80) center / cover'
           />
           <div className='breaker'></div>
+          <ProjectCard
+            title='Timer'
+            text='Drawing Animations built with SVG (stroke-dasharray and stroke-dashoffset)'
+            link='https://sudarshansuryaprakash.github.io/Timer/'
+            button_text='Live Demo'
+            pic='url(https://images.unsplash.com/photo-1572621403925-33e05716ad8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80) center / cover'
+          />
+          <div className='breaker'></div>
         </div>
       );
     }
