@@ -79,8 +79,8 @@ class Resume extends Component {
             <h2>Software Education, Experience & Certifications</h2>
 
             <Education
-              startYear={2007}
-              endYear={2009}
+              startYear={2015}
+              endYear={2019}
               schoolName='Ramaiah University of Applied Sciences'
               degree='Bachelor of Technology in Comupter Science and Engineering'
               schoolDescription='
@@ -92,6 +92,7 @@ class Resume extends Component {
               startYear='6/2018'
               endYear='8/2018'
               jobName='Software Intern'
+              company='Sysnet Associates India Private Limited'
               jobDescription='Obtained requirements from clients and delivered them to the senior developer. 
 Communicated between customers and developers to ensure they understood requirements correctly.
 Used attention to detail to document requirements obtained from the customer
@@ -109,26 +110,31 @@ Node, RestAPIs,
 Database Management with NoSQL (MongoDB) and SQL (MySQL),
 Basic React
 Website Security'
+              no={1}
               link='https://www.udemy.com/course/the-complete-web-development-bootcamp/'
             />
             <Certifications
               name='Modern React with Redux [2020 Update]'
+              no={2}
               description='Learnt the core concepts of React and Redux from the very basics to advanced concepts.'
               link='https://www.udemy.com/course/react-redux/'
             />
             <Certifications
               name='Automate the Boring Stuff with Python Programming'
               description='Applied already present knowledge of python to automate manual computer tasks'
+              no={1}
               link='https://www.udemy.com/course/automate/'
             />
             <Certifications
               name='Advanced CSS and Sass: Flexbox, Grid, Animations and More!'
               description='Vanilla Front End development taken to the next level!'
+              no={2}
               link='https://www.udemy.com/course/advanced-css-and-sass/'
             />
             <Certifications
               name='Node.js, Express, MongoDB & More: The Complete Bootcamp 2020'
               description='Advanced concepts in the Backend'
+              no={1}
               link='https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/'
             />
 
@@ -137,8 +143,8 @@ Website Security'
             <h2>Business Education & Experience</h2>
 
             <Education
-              startYear={2002}
-              endYear={2006}
+              startYear={2020}
+              endYear={2022}
               schoolName='Brunel University London'
               degree='MSc Management with extended placement'
               schoolDescription='
@@ -147,9 +153,10 @@ Website Security'
             />
 
             <Experience
-              startYear={2012}
-              endYear={2016}
+              startYear='1/2019'
+              endYear='12/2019'
               jobName='Marketing Executive'
+              company='Sysnet Associates India Private Limited'
               jobDescription='Promoted brand awareness through SEO and attractive web design.
   Produced engaging online marketing campaigns
 Spearhead creation of blogs and social media content
