@@ -35,6 +35,9 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
                       fontSize: '30px',
                       fontFamily: 'Anton',
                       color: '#0f5fa9',
@@ -51,13 +54,21 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
                       fontSize: '25px',
                       fontFamily: 'Anton',
                       color: '#0f5fa9',
                     }}
                   >
-                    <i className='fa fa-envelope' aria-hidden='true' />
-                    sudarshansprakash@gmail.com
+                    <i
+                      className='fa fa-envelope push-right'
+                      aria-hidden='true'
+                    />
+                    <span className='email-contact'>
+                      sudarshansprakash@gmail.com
+                    </span>
                   </ListItemContent>
                 </ListItem>
               </List>
