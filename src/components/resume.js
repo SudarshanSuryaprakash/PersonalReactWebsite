@@ -24,11 +24,11 @@ class Resume extends Component {
             </div>
 
             <h2 style={{ paddingTop: '2em' }}>Sudarshan Suryaprakash</h2>
-            <h4 style={{ color: 'grey' }}>Programmer</h4>
+            <h4 style={{ color: 'grey' }}>Developer | Programmer </h4>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <p>
-              Strong background in Computer Science. Skilled at Full Stack
-              Development. Interest in non-fiction books. Click{' '}
+              Strong background in Computer Science. Extreme interest and skill
+              at Full Stack Development. Interest in non-fiction books. Click{' '}
               <a
                 href='https://sudarshansuryaprakash.github.io/JobApplication/books'
                 rel='noopener noreferrer'
@@ -37,6 +37,15 @@ class Resume extends Component {
                 here
               </a>{' '}
               to view. Extreme interest in Management and Marketing sciences.
+              (Still going to be a Developer).
+            </p>
+            <p>
+              {' '}
+              Currently, I am doing a masters course in Management at Brunel
+              University London. Why management? - I know the basics of computer
+              science and if there's any new technology I like, I use my basic
+              knowledge to acquire this new knowledge! Since I can't say the
+              same for Business Studies - MSc in Management.
             </p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
 
