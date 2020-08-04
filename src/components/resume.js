@@ -95,7 +95,7 @@ class Resume extends Component {
               company='Sysnet Associates India Private Limited'
               jobDescription='Obtained requirements from clients and delivered them to the senior developer. 
 Communicated between customers and developers to ensure they understood requirements correctly.
-Used attention to detail to document requirements obtained from the customer
+Used attention to detail to document requirements obtained from the customer. 
 Documented deliverables and delivered features obtained from the developer.
               '
             />
@@ -158,11 +158,11 @@ Website Security'
               jobName='Marketing Executive'
               company='Sysnet Associates India Private Limited'
               jobDescription='Promoted brand awareness through SEO and attractive web design.
-  Produced engaging online marketing campaigns
-Spearhead creation of blogs and social media content
-Managed new product and content releases
- Worked effectively in heavily cross-functional, fast-paced environment.
-Managed, mentored and developed a team of 3 interns.
+  Produced engaging online marketing campaigns. 
+Spearhead creation of blogs and social media content. 
+Managed new product and content releases. 
+ Worked effectively in heavily cross-functional, fast-paced environment. 
+Managed, mentored and developed a team of 3 interns. 
 Analysed the performance of all marketing programs to identify best opportunities for optimization.'
             />
           </Cell>
