@@ -37,7 +37,6 @@ class Resume extends Component {
                 here
               </a>{' '}
               to view. Extreme interest in Management and Marketing sciences.
-              (Still going to be a Developer).
             </p>
             <p>
               {' '}
@@ -72,6 +71,7 @@ class Resume extends Component {
             <Skills skill='React' progress={70} />
             <Skills skill='Python' progress={80} />
             <Skills skill='Git, Github & Version Control' progress={80} />
+            <Skills skill='RestAPI' progress={80} />
             <Button style={{ background: 'black' }}>
               <Link
                 to='/projects'
