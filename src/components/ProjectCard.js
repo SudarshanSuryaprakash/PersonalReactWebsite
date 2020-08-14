@@ -13,7 +13,11 @@ class ProjectCard extends React.Component {
     return (
       <div
         style={{ marginRight: '25px' }}
-        className={this.props.styleSetter ? 'react-projects' : ''}
+        className={
+          this.props.styleSetter
+            ? 'react-projects card-animation'
+            : 'card-animation'
+        }
       >
         {/* Project 1 */}
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
