@@ -35,7 +35,7 @@ class Projects extends Component {
           />
           <ProjectCard
             title='Streaming App'
-            text='Streaming app built for an interview.'
+            text='Video and Audio Streaming app built for an interview.'
             link='https://www.linkedin.com/posts/sudarshan-suryaprakash-b5ab1b190_hi-everyone-during-the-pandemic-there-activity-6724369565226213376-d27j'
             button_text='Video Demo'
             pic='url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
