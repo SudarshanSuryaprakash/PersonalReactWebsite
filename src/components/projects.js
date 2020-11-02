@@ -56,7 +56,6 @@ class Projects extends Component {
             pic='url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
             styleSetter={1}
           />
-          <div className='breaker'></div>
           <ProjectCard
             title='A* Path Find Visualizer'
             text='React app that visualizes the A* path finding algorithm'
