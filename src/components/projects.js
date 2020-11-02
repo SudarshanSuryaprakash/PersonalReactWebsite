@@ -58,7 +58,7 @@ class Projects extends Component {
           />
           <div className='breaker'></div>
           <ProjectCard
-            title='COVID 19 Tracker'
+            title='A* Path Find Visualizer'
             text='React app that visualizes the A* path finding algorithm'
             link='https://pathfind-viz.vercel.app'
             button_text='Live Demo'
