@@ -33,6 +33,7 @@ class Projects extends Component {
             button_text='Video Demo'
             pic='url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
           />
+          <div className='breaker'></div>
           <ProjectCard
             title='Streaming App'
             text='Video and Audio Streaming app built for an interview.'
@@ -51,6 +52,15 @@ class Projects extends Component {
             title='COVID 19 Tracker'
             text='React app to track covid 19 using an external API'
             link='https://covid19trackersud.herokuapp.com'
+            button_text='Live Demo'
+            pic='url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
+            styleSetter={1}
+          />
+          <div className='breaker'></div>
+          <ProjectCard
+            title='COVID 19 Tracker'
+            text='React app that visualizes the A* path finding algorithm'
+            link='https://pathfind-viz.vercel.app'
             button_text='Live Demo'
             pic='url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
             styleSetter={1}
