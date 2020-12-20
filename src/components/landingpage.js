@@ -16,8 +16,9 @@ class Landing extends Component {
               <hr />
 
               <p>
-                HTML/CSS | Bootstrap | JavaScript | React | Redux | NodeJS |
-                Express | MongoDB | Python
+                HTML/CSS | Bootstrap | JavaScript | React | React Native |
+                GraphQL | Redux | NodeJS | Express | MongoDB | Python | Java |
+                SQL
               </p>
 
               <div className='social-links'>

@@ -40,7 +40,7 @@ class Certifications extends React.Component {
 
         <h4>{this.props.name}</h4>
         <p>{this.props.description}</p>
-        <a href={this.props.link}>Course Link</a>
+        <a href={this.props.link}>View Certificate</a>
       </div>
     );
   }

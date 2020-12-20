@@ -49,7 +49,7 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
 
             <h5>Phone</h5>
-            <p>07421054467</p>
+            <p>07392785497</p>
             <h5>Email</h5>
             <p>sudarshansprakash@gmail.com</p>
             <h5>Web</h5>
@@ -65,11 +65,14 @@ class Resume extends Component {
 
           <Cell className='resume-right-col' col={8}>
             <h2>Skills</h2>
-            <Skills skill='javascript' progress={95} />
-            <Skills skill='HTML/CSS' progress={90} />
-            <Skills skill='NodeJS' progress={80} />
+            <Skills skill='Javascript' progress={95} />
+            <Skills skill='HTML5/CSS3' progress={90} />
+            <Skills skill='Sass' progress={90} />
+            <Skills skill='Node and Express' progress={80} />
             <Skills skill='React' progress={70} />
+            <Skills skill='React Native' progress={70} />
             <Skills skill='Python' progress={80} />
+            <Skills skill='Java' progress={90} />
             <Skills skill='Git, Github & Version Control' progress={80} />
             <Skills skill='RestAPI' progress={80} />
             <Button style={{ background: 'black' }}>
@@ -120,31 +123,43 @@ Database Management with NoSQL (MongoDB) and SQL (MySQL),
 Basic React
 Website Security'
               no={1}
-              link='https://www.udemy.com/course/the-complete-web-development-bootcamp/'
+              link='https://udemy-certificate.s3.amazonaws.com/pdf/UC-6002ffd7-d320-481a-844b-fdcfe023be1c.pdf'
+            />
+            <Certifications
+              name='Javascript Algorithms and Data Structures Masterclass'
+              description='The Fundamentals - not in Java (done during bachelors), not in C (done too during bachelors), but in Javascript!'
+              no={1}
+              link='https://udemy-certificate.s3.amazonaws.com/pdf/UC-641e1c86-d451-4fc2-8d10-ba038a4cf376.pdf'
+            />
+            <Certifications
+              name='The Complete React Native + Hooks Course [2020 Edition]'
+              description='Cross platform app development using the latest technology which is backed and maintained by the best software developers in the market!'
+              no={1}
+              link='https://udemy-certificate.s3.amazonaws.com/pdf/UC-48a6aa78-3cde-4be1-9d84-4a36bb474ff4.pdf'
             />
             <Certifications
               name='Modern React with Redux [2020 Update]'
               no={2}
               description='Learnt the core concepts of React and Redux from the very basics to advanced concepts.'
-              link='https://www.udemy.com/course/react-redux/'
+              link='https://udemy-certificate.s3.amazonaws.com/pdf/UC-48d4ddd4-8376-4c2c-8d6e-338f6dbe3e6d.pdf'
             />
             <Certifications
               name='Automate the Boring Stuff with Python Programming'
               description='Applied already present knowledge of python to automate manual computer tasks'
               no={1}
-              link='https://www.udemy.com/course/automate/'
+              link='https://udemy-certificate.s3.amazonaws.com/pdf/UC-1e838133-a0f6-47a5-9cf4-74a6bd9b3b31.pdf'
             />
             <Certifications
               name='Advanced CSS and Sass: Flexbox, Grid, Animations and More!'
               description='Vanilla Front End development taken to the next level!'
               no={2}
-              link='https://www.udemy.com/course/advanced-css-and-sass/'
+              link='https://udemy-certificate.s3.amazonaws.com/pdf/UC-8c889a17-464e-468b-9d2c-3de4836fb8f6.pdf'
             />
             <Certifications
               name='Node.js, Express, MongoDB & More: The Complete Bootcamp 2020'
               description='Advanced concepts in the Backend'
               no={1}
-              link='https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/'
+              link='https://udemy-certificate.s3.amazonaws.com/pdf/UC-b3364c84-686d-424b-a662-e6f592c17273.pdf'
             />
 
             <hr style={{ borderTop: '3px solid #e22947' }} />
