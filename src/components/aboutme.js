@@ -5,14 +5,15 @@ class About extends Component {
     return (
       <div className='about'>
         <h1>
-          <a
+          {/* <a
             style={{ color: '#fff' }}
             href='https://sudarshansuryaprakash.github.io/JobApplication'
           >
             Click to go to my previous HTML website
-          </a>
+          </a> */}
+          <span>In Progress...</span>
         </h1>
-        <p style={{ color: 'white' }}>It has everything.</p>
+        {/* <p style={{ color: 'white' }}>It has everything.</p> */}
       </div>
     );
   }

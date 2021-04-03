@@ -28,23 +28,12 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <p>
               Strong background in Computer Science. Extreme interest and skill
-              at Full Stack Development. Interest in non-fiction books. Click{' '}
-              <a
-                href='https://sudarshansuryaprakash.github.io/JobApplication/books'
-                rel='noopener noreferrer'
-                target='_blank'
-              >
-                here
-              </a>{' '}
-              to view. Extreme interest in Management and Marketing sciences.
+              at Full Stack Development. Interest in non-fiction books. Interest
+              in Management and Marketing sciences.
             </p>
             <p>
               {' '}
-              Currently, I am doing a masters course in Management at Brunel
-              University London. Why management? - I know the basics of computer
-              science and if there's any new technology I like, I use my basic
-              knowledge to acquire this new knowledge! Since I can't say the
-              same for Business Studies - MSc in Management.
+              Currently persuing a Masters of Science degree in Management.
             </p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
 
